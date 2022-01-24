@@ -103,16 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length / 2) {
             resultDisplay.textContent = "Congratulations! You did it, you found'em all!"
-                // resultDisplay.addEventListener('onmouseover', mOver)
-                // resultDisplay.addEventListener('onmouseout', mOut)
-
-            // function mOver(obj) {
-            //     obj = document.getElementById('result').style.color = "red"
-            // }
-
-            // function mOut(obj) {
-            //     obj = document.getElementById('result').style.color = "orange"
-            // }
         }
     }
 
